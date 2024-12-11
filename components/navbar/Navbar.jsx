@@ -10,11 +10,9 @@ const Navbar = () => {
       <div className="p-2 tablet:p-4 flex justify-between items-center">
         <Link href={"/"}>
           <Image
-            width={200}
-            height={100}
             src={logo}
             alt="africa world market logo"
-            className="cursor-pointer"
+            className="cursor-pointer w-[150px] laptop:w-[200px]"
           />
         </Link>
         <div className="hidden laptop:block">

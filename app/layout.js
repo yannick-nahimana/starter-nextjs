@@ -11,7 +11,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="flex justify-center">
-        <div className="h-dvh flex flex-col gap-2 tablet:gap-4   w-full ">
+        <div className="h-dvh flex flex-col gap-2 tablet:gap-4   w-full bg-[#fafeff] relative">
+          <Navbar />
           <main>{children}</main>
           <Footer />
         </div>
