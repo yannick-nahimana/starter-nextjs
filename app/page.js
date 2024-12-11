@@ -8,9 +8,9 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div>
+    <div className="bg-bgCol text-textCol">
       <Hero />
-      <div className="bg-accentCol text-black  text-xl text-center py-2 font-lobster">
+      <div className="bg-accentCol  text-black text-xl text-center py-2 font-lobster">
         Shop with us today and get 10% off your first order!
       </div>
 
