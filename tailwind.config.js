@@ -19,6 +19,15 @@ module.exports = {
     extend: {
       fontFamily: {
         roboto: ["Roboto"],
+        playfair: ["Playfair Display"],
+        lobster: ["Lobster"],
+      },
+      colors: {
+        whiteOff: "#f9f5f2",
+        accentCol: "#fce348",
+        accentDark: "#af9804",
+        bunker: "#066b6a",
+        bunkerDark: "#03302f",
       },
     },
   },

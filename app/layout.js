@@ -3,16 +3,15 @@ import "./globals.css";
 import Footer from "@/components/footer/Footer";
 
 export const metadata = {
-  title: "Starter template",
-  description: "this is a starter template",
+  title: "Africa World Market",
+  description: "tastes of home",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="flex justify-center">
-        <div className="h-dvh flex flex-col gap-2 tablet:gap-4 p-2 tablet:p-4 w-full max-w-[1024px] ">
-          <Navbar />
+        <div className="h-dvh flex flex-col gap-2 tablet:gap-4   w-full ">
           <main>{children}</main>
           <Footer />
         </div>
