@@ -26,7 +26,7 @@ const Hero = () => {
           </p>
           <Link
             href={"/shop"}
-            className="btn bg-accentCol border-accentCol hover:bg-accentDark hover:text-white text-lg laptop:text-xl font-bold"
+            className="btn bg-accentCol text-black border-accentCol hover:bg-accentDark hover:text-white text-lg laptop:text-xl font-bold"
           >
             SHOP NOW!
           </Link>

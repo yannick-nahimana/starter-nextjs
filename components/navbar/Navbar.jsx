@@ -62,7 +62,8 @@ const MobileMenu = () => {
         id="my-drawer-4"
         type="checkbox"
         className="drawer-toggle"
-        checked={checked}
+        defaultChecked={checked}
+        onChange={() => setChecked(!checked)}
       />
       <div className="drawer-content">
         {/* Page content here */}
