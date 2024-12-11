@@ -28,6 +28,8 @@ module.exports = {
         accentDark: "#af9804",
         bunker: "#066b6a",
         bunkerDark: "#03302f",
+        bgCol: "#fafeff",
+        textCol: "#141414",
       },
     },
   },

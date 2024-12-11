@@ -16,7 +16,7 @@ const Values = () => {
             Our Core Values
           </div>
           <div className="text-gray-600 text-3xl font-bold font-playfair uppercase text-center laptop:text-start">
-            Here for You!
+            Here for You
           </div>
           <div className="text-lg text-gray-800 text-center laptop:text-start">
             At Africa World Market, we are dedicated to serving our community
@@ -24,7 +24,7 @@ const Values = () => {
             authenticity, and customer satisfaction. We believe in fair trade,
             supporting local farmers, and sharing the rich culture of Africa.
             Your needs matter to us, and we are here to help you find the
-            perfect products for your culinary journey!
+            perfect products for your culinary journey.
           </div>
           <div className="flex justify-center laptop:justify-start">
             <Link

@@ -10,18 +10,18 @@ const Explore = () => {
     <div className="flex justify-center mt-8 laptop:mt-16">
       <div className="max-w-[980px] flex flex-col gap-4 laptop:gap-8 items-center mx-4">
         <div className="text-center text-4xl text-gray-800 font-playfair font-semibold">
-          Explore Our Authentic Products!
+          Explore Our Authentic Products
         </div>
         <div className="flex flex-wrap justify-center gap-4 laptop:gap-8">
-          <ProductCard src={oil} txt="view products!" />
-          <ProductCard src={pondu} txt="shop favorites!" />
-          <ProductCard src={meat} txt="discover more!" />
+          <ProductCard src={oil} txt="view products" />
+          <ProductCard src={pondu} txt="shop favorites" />
+          <ProductCard src={meat} txt="discover more" />
         </div>
         <Link
           href={"/shop"}
           className="text-bunker underline underline-offset-2 hover:no-underline text-xl font-semibold  "
         >
-          Start your journey!
+          Start your journey
         </Link>
         <div className="mt-8 laptop:mt-16 h-[2px]  w-[80dvw] bg-gray-500 laptop:w-full"></div>
       </div>

@@ -11,12 +11,12 @@ const Hero = () => {
         backgroundPosition: "top center",
       }}
     >
-      <div className="hero-content  text-center mt-[100px] laptop:mt-[200px]">
-        <div className="max-w-md bg-black p-2 tablet:p-4 rounded-xl bg-opacity-80">
+      <div className="hero-content  text-center ">
+        <div className="max-w-md bg-black p-2 tablet:p-4 rounded-xl bg-opacity-80 mt-[100px] ">
           <h1 className="mb-5 text-3xl laptop:text-5xl font-bold text-white font-playfair">
-            Discover Africaʼs Flavors Here!
+            Discover Africaʼs Flavors Here
           </h1>
-          <p className="mb-5 text-lg laptop:text-xl text-whiteOff">
+          <p className=" text-lg laptop:text-xl text-whiteOff">
             Welcome to Africa World Market! Dive into a world of authentic
             African foods and goods. Experience the rich tastes and vibrant
             culture of Africa, right here in Canada.
