@@ -65,12 +65,10 @@ const MobileMenu = () => {
         defaultChecked={checked}
         onChange={() => setChecked(!checked)}
       />
-      <div className="drawer-content">
-        {/* Page content here */}
+      <div className="drawer-content " onClick={() => setChecked(!checked)}>
         <label
           htmlFor="my-drawer-4"
           className="drawer-button btn bg-black bg-opacity-60 p-2"
-          onClick={() => setChecked(!checked)}
         >
           <svg
             className="swap-off fill-accentCol"
