@@ -27,6 +27,11 @@ const Footer = () => {
             <Link href={"/careers"}>Contact Us</Link>
           </div>
           <div className="flex flex-col gap-2 laptop:gap-4">
+            <div className="text-accentCol text-2xl text-bold">ADDRESS</div>
+            <div>1392 Cyrville Rd</div>
+            <div>Ottawa,ON K1L 3M9</div>
+          </div>
+          <div className="flex flex-col gap-2 laptop:gap-4">
             <div className="text-accentCol text-2xl text-bold">CONTACT US</div>
             <div className="flex items-center gap-2">
               <Image src={call} width={24} alt="call icon" />

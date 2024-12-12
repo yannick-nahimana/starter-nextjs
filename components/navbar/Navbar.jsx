@@ -3,10 +3,11 @@ import React, { useState } from "react";
 import Image from "next/image";
 import logo from "@/public/images/logo.png";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
   return (
-    <div className="absolute top-0 left-0 w-full">
+    <div className="absolute top-0 left-0 w-full z-10">
       <div className="p-2 tablet:p-4 flex justify-between items-start laptop:items-center">
         <Link href={"/"}>
           <Image
@@ -27,19 +28,49 @@ const Navbar = () => {
 };
 
 const DesktopMenu = () => {
+  const pathname = usePathname();
+
   return (
     <div className="flex gap-10 items-center w-full">
       <div className="flex gap-6 items-center font-bold text-xl">
-        <Link href={"/"} className="hover:text-accentDark">
+        <Link
+          href={"/"}
+          className={` ${
+            pathname == "/about"
+              ? "hover:text-white"
+              : "hover:text-accentOrange"
+          } ${pathname == "/" ? "text-accentOrange" : ""}`}
+        >
           Home
         </Link>
-        <Link href={"/about"} className="hover:text-accentDark">
+        <Link
+          href={"/about"}
+          className={` ${
+            pathname == "/about"
+              ? "hover:text-white text-white"
+              : "hover:text-accentOrange"
+          }`}
+        >
           Our Story
         </Link>
-        <Link href={"/contact"} className="hover:text-accentDark">
+        <Link
+          href={"/contact"}
+          className={`${
+            pathname == "/about"
+              ? "hover:text-white"
+              : "hover:text-accentOrange"
+          } ${pathname == "/contact" ? "text-accentOrange" : ""}`}
+        >
           Contact Us
         </Link>
-        <Link href={"/careers"} className="hover:text-accentDark">
+        <Link
+          href={"/careers"}
+          className={` ${
+            pathname == "/about"
+              ? "hover:text-white"
+              : "hover:text-accentOrange"
+          } ${pathname == "/careers" ? "text-accentOrange" : ""}`}
+        >
           Careers
         </Link>
       </div>
@@ -112,7 +143,7 @@ const MobileMenu = () => {
   return (
     <div className="flex flex-col items-end">
       <div
-        className="btn m-1 bg-black bg-opacity-60 active:bg-black active:bg-opacity-60 hover:bg-opacity-60 hover:bg-black p-2 shadow z-10"
+        className="btn m-1 bg-black bg-opacity-60 active:bg-black active:bg-opacity-60 hover:bg-opacity-60 hover:bg-black p-2 shadow "
         onClick={toggle}
       >
         {!menuOpen && (

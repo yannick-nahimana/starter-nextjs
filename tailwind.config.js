@@ -30,6 +30,7 @@ module.exports = {
         bunkerDark: "#03302f",
         bgCol: "#fafeff",
         textCol: "#141414",
+        accentOrange: "#f38422",
       },
     },
   },

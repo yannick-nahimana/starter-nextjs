@@ -10,8 +10,9 @@ const Home = () => {
   return (
     <div className="bg-bgCol text-textCol">
       <Hero />
-      <div className="bg-accentCol  text-black text-xl text-center py-2 font-lobster">
-        Shop with us today and get 10% off your first order!
+      <div className="bg-accentCol  text-black text-xl text-center py-2 font-semibold">
+        Welcome to our store at 1392 Cyrville Rd, Ottawa,ON K1L 3M9 <br />
+        Where you'll find the best in quality and service!
       </div>
 
       <Explore />
