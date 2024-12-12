@@ -112,7 +112,7 @@ const MobileMenu = () => {
   return (
     <div className="flex flex-col items-end">
       <div
-        className="btn m-1 bg-black bg-opacity-60 active:bg-black active:bg-opacity-60 hover:bg-opacity-60 hover:bg-black p-2 shadow"
+        className="btn m-1 bg-black bg-opacity-60 active:bg-black active:bg-opacity-60 hover:bg-opacity-60 hover:bg-black p-2 shadow z-10"
         onClick={toggle}
       >
         {!menuOpen && (
