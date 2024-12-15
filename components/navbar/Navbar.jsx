@@ -84,55 +84,6 @@ const DesktopMenu = () => {
   );
 };
 
-// const MobileMenu = () => {
-//   return (
-//     <div className="drawer drawer-end">
-//       <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
-//       <div className="drawer-content">
-//         <label
-//           htmlFor="my-drawer-4"
-//           className="drawer-button btn bg-black bg-opacity-60 p-2 "
-//         >
-// <svg
-//   className=" fill-accentCol"
-//   xmlns="http://www.w3.org/2000/svg"
-//   width="32"
-//   height="32"
-//   viewBox="0 0 512 512"
-// >
-//   <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
-// </svg>
-//         </label>
-//       </div>
-//       <div className="drawer-side z-10">
-//         <label
-//           htmlFor="my-drawer-4"
-//           aria-label="close sidebar"
-//           className="drawer-overlay"
-//         ></label>
-//         <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
-//           {/* Sidebar content here */}
-// <li>
-//   <Link href={"/"}>Home</Link>
-// </li>
-// <li>
-//   <Link href={"/shop"}>Shop</Link>
-// </li>
-// <li>
-//   <Link href={"/about"}>Our Story</Link>
-// </li>
-// <li>
-//   <Link href={"/contact"}>Contact Us</Link>
-// </li>
-// <li>
-//   <Link href={"/contact"}>Careers</Link>
-// </li>
-//         </ul>
-//       </div>
-//     </div>
-//   );
-// };
-
 const MobileMenu = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -184,7 +135,7 @@ const MobileMenu = () => {
             <Link href={"/contact"}>Contact Us</Link>
           </li>
           <li onClick={toggle}>
-            <Link href={"/contact"}>Careers</Link>
+            <Link href={"/careers"}>Careers</Link>
           </li>
         </ul>
       )}

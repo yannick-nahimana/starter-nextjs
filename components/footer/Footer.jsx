@@ -6,6 +6,7 @@ import call from "@/public/icons/call.png";
 import message from "@/public/icons/message.png";
 import Facebook from "./Facebook";
 import Instagram from "./Instagram";
+import Tiktok from "./Tiktok";
 
 const date = new Date();
 const year = date.getFullYear();
@@ -59,6 +60,13 @@ const Footer = () => {
               className="w-[40px] h-[40px] bg-accentCol hover:bg-accentDark grid place-content-center rounded-full"
             >
               <Instagram />
+            </Link>
+            <Link
+              href={"https://www.tiktok.com/discover/africa-world-market"}
+              target="_blank"
+              className="w-[40px] h-[40px] bg-accentCol hover:bg-accentDark grid place-content-center rounded-full"
+            >
+              <Tiktok />
             </Link>
           </div>
         </div>
